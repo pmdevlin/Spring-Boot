@@ -1,4 +1,4 @@
-package com.portfolio.springportfolio.data;
+package com.portfolio.springportfolio.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
