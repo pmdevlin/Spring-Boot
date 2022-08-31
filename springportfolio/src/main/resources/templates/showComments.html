@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns: th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments</title>
+</head>
+<body>
+    <h2>List of comments</h2>
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Topic</th>
+            <th>Body</th>
+        </tr>
+        <tr th:each="comments : ${comments}">
+            <td th:text="${comments.id}">Id</td>
+            <td th:text="${comments.name}">Name</td>
+            <td th:text="${comments.topic}">Topic</td>
+            <td th:text="${comments.body}">Body</td>            
+        </tr>
+    </table>
+</body>
+</html>
