@@ -20,5 +20,5 @@ Learning Spring Boot
 
 ##### Spring-boot resources
 
-- [https://zetcode.com/springboot/postgresql/](How to connect to postgres database)
-- [https://spring.io/guides/tutorials/react-and-spring-data-rest/](how to connect to react)
+- ![How to connect to postgres database](https://zetcode.com/springboot/postgresql/)
+- ![how to connect to react](https://spring.io/guides/tutorials/react-and-spring-data-rest/)
