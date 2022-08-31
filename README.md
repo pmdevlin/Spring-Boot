@@ -17,3 +17,8 @@ Learning Spring Boot
 - how to use routes
 - how to connect to react
 - how to import, manipulate and display data from database
+
+##### Spring-boot resources
+
+- [https://zetcode.com/springboot/postgresql/](How to connect to postgres database)
+- [https://spring.io/guides/tutorials/react-and-spring-data-rest/](how to connect to react)
