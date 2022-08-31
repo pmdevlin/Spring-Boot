@@ -1,4 +1,9 @@
-package main.java.com.connectreact.reactconnection;
+package com.connectreact.reactconnection.model;
+
+import java.util.Objects;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
 @Entity
 public class Employee {
@@ -11,7 +16,7 @@ public class Employee {
   private String lastName;
   private String description;
 
-  private Employee() {}
+  // private Employee() {}
 
   public Employee(String firstName, String lastName, String description) {
     this.firstName = firstName;
